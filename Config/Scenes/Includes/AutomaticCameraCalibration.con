@@ -1,0 +1,13 @@
+vd parameters:AutomaticCameraCalibrator
+vd representation:CameraCalibration
+vd representation:CameraCalibrationStatus
+vd representation:CalibrationRequest
+vd representation:HeadMotionRequest
+
+vid all horizon
+vid all representation:FieldLines:image
+vid all representation:PenaltyMarkPercept:image
+vid all module:AutomaticCameraCalibrator:correctedLines
+vfd all behavior:AutonomousCameraCalibrationCard:position
+
+echo dr module:GameStateProvider:calibration
